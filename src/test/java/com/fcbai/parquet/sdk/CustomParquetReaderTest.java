@@ -10,12 +10,12 @@ import java.io.IOException;
 
 import static org.apache.parquet.filter.PagedRecordFilter.page;
 
-public class EMRParquetReaderTest {
+public class CustomParquetReaderTest {
 
-    String complexMapFilepath = "/Users/bytedance/workspace/emr-product/parquet-java-sdk/src/test/resources/complex_map.parquet";
-    String simpleFilepath = "/Users/bytedance/workspace/emr-product/parquet-java-sdk/src/test/resources/simple.parquet";
-    String mapFilePath = "/Users/bytedance/workspace/emr-product/parquet-java-sdk/src/test/resources/map.parquet";
-    String partitionFilePath = "/Users/bytedance/workspace/emr-product/parquet-java-sdk/src/test/resources/partition.parquet";
+    String complexMapFilepath = "./src/test/resources/complex_map.parquet";
+    String simpleFilepath = "./src/test/resources/simple.parquet";
+    String mapFilePath = "./src/test/resources/map.parquet";
+    String partitionFilePath = "./src/test/resources/partition.parquet";
 
     @Test
     public void test_read_complex_map_partition_table_content() throws IOException {
@@ -64,5 +64,4 @@ public class EMRParquetReaderTest {
         }
         reader.close();
     }
-
 }
