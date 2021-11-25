@@ -1,4 +1,4 @@
-package com.fcbai.parquet.sdk.reader;
+package com.fcbai.parquet.sdk;
 
 import org.apache.parquet.io.api.Binary;
 import org.apache.parquet.io.api.Converter;

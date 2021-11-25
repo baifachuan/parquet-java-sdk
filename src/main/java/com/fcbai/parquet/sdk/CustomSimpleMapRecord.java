@@ -1,4 +1,4 @@
-package com.fcbai.parquet.sdk.reader;
+package com.fcbai.parquet.sdk;
 
 import com.fasterxml.jackson.databind.node.BinaryNode;
 import com.google.common.collect.Maps;

@@ -1,4 +1,4 @@
-package com.fcbai.parquet.sdk.reader;
+package com.fcbai.parquet.sdk;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.parquet.hadoop.api.InitContext;
